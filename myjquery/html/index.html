@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"><!--这行支持自适应设备用的-->
+    <link href="../plugins/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="../plugins/bootstrap/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet"/>
+    <script src="../plugins/jquery-3.3.1.min.js"></script>
+    <script src="../js/index.js"></script>
+    <title>jquery</title>
+    <style type="text/css">
+        .container{
+            border: 1px solid red !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="container1" style="border: 1px solid red">
+        <p >
+            <span id="123">123</span>
+            <span id="456">456</span>
+            <span id="789">789</span>
+        </p>
+        <p>
+            <span id="luo">luo</span>
+            <span id="ruo">ruo</span>
+            <span id="feng">feng</span>
+        </p>
+    </div><br/>
+    <div id="container2" style="border: 1px solid green">aaa</div><br/>
+
+    <div style="border: 1px solid blue">
+        <div class="c">a</div>
+        <div class="c">b</div>
+        <div class="c">c</div>
+    </div><br/>
+
+    <div style="border: 1px solid black">
+        <form id="form" action="https://www.baidu.com">
+            <input type="text" id="name" />
+            <button type="submit" style="width:50px; height:25px;">提交</button>
+        </form>
+    </div><br/>
+
+    <div onclick="c();" style="width: 100px;height: 100px;background-color: peru;"></div><br/>
+
+    <div style="border: 1px solid #ce8483">
+        <p id="p-123">123</p>
+        <button id="show">显示</button>
+        <button id="hide">隐藏</button>
+        <button id="toggle">toggle</button>
+    </div><br/>
+
+    <div class="container">
+        <p id="student">我是好学生</p>
+        <button onclick="fadeIn();" id="fadeIn">淡出</button>
+        <button onclick="fadeOut();" id="fadeOut">淡印</button>
+        <button onclick="fadeInOut();" id="fadeInOut">淡印淡出</button>
+    </div><br/>
+
+    <div id="back" style="background-color: #b9def0;width: 500px;height:50px;position:relative;top: 10px;left:10px">
+        大家好，我是ABC
+        <button onclick="move();">移动</button>
+    </div><br/>
+
+    <div id="weather" style="background-color: #b9def0;width: 500px;height:50px;position:relative;top: 10px;left:10px">
+        <p class="cond_txt"></p>
+    </div><br/>
+
+    <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../plugins/jquery-3.3.1.min.js"></script>
+<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
